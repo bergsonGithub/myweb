@@ -26,9 +26,12 @@ p{
 .marker1{
     list-style-type: decimal;
     list-style-position: inside;
-    color: darkblue;
+    color: #00008b;
 }
-.table1{
+.table {
     width: 100%;
     border: 1px solid #000;
+}
+.table th{
+    text-align: left;
 }
