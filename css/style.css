@@ -29,3 +29,6 @@ p{
     font-family: Tahoma;
     color: darkblue;
 }
+.table{
+    border: 1px solid #000;
+}
