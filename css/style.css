@@ -33,8 +33,9 @@ p{
     border: 1px solid #000;
 }
 .text-red{
-    display: block;
+    display: inline-block;
     margin: 10px;
+  //  width: 100px;
     color: red;
     font-weight: 700;
     font-style: italic;
