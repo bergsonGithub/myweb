@@ -61,13 +61,17 @@ body{
 
     margin-right: auto;
     margin-left: auto;
+       margin-bottom: 20px;
 
     border: 1px solid #042e39;
-       background-color: azure;
+     /*  background-color: azure;
        background-image: url("../img/bg.jpg");
        background-repeat: no-repeat;
-       background-size: cover;
        background-position: center;
+       background-size: cover;
+    */
+
+       background: azure url("../img/bg.jpg") no-repeat center /cover;
    }
    .post-title{
        text-align: center;
@@ -80,4 +84,13 @@ body{
    }
    .post-text p{
        margin:0 0 10px 0 ;
+   }
+   .gradient{
+       width: 600px;
+       height: 300px;
+       margin: 0 auto;
+
+
+       background-image: linear-gradient(to top,#ffffff, #333) ;
+
    }
