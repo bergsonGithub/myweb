@@ -5,6 +5,8 @@ body{
     color: #6d3232;
 
     background-color: aquamarine;
+    background-image: url("../img/pattern.png");
+    background-size: 300px 300px;
 }
 
 
@@ -64,13 +66,18 @@ body{
        background-color: azure;
        background-image: url("../img/bg.jpg");
        background-repeat: no-repeat;
-       background-size: 100% 100%;
+       background-size: cover;
+       background-position: center;
    }
    .post-title{
+       text-align: center;
        margin-top: 0;
        margin-bottom: 10px;
-        color: darkblue;
+        color: #8b7d00;
    }
    .post-text{
+       color: antiquewhite;
+   }
+   .post-text p{
        margin:0 0 10px 0 ;
    }
