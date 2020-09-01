@@ -60,3 +60,11 @@ body{
 
     border: 1px solid #042e39;
    }
+   .post-title{
+       margin-top: 0;
+       margin-bottom: 10px;
+
+   }
+   .post-text{
+       margin:0 0 10px 0 ;
+   }
