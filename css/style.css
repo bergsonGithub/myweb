@@ -38,14 +38,23 @@ body{
     font-style: italic;
 }
 .content{
-  //  width: 300px;
+    width: 300px;
     margin: 10px auto;
- //   margin: 10px 20px 30px 50px;
+ /*   margin: 10px 20px 30px 50px;
  //   margin-right: 50px;
- //   margin-bottom: 50px ;
+ //   margin-bottom: 50px ; */
 }
 .page{
     width: 900px;
     margin-right: auto;
     margin-left: auto;
 }
+/* Post */
+   .post{
+    width: 700px;
+    height: 900px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 1px solid #042e39;
+   }
